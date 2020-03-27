@@ -1,0 +1,103 @@
+@use "sass:list";
+#foo, #bar, #baz {
+  min-height: 2em;
+  padding: 1em; }
+
+.medal-count {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888; }
+  .medal-count .error {
+    background-color: #fcc;
+    padding: 1em;
+    width: 21em; }
+  .medal-count h1 {
+    font-size: 1.4em;
+    font-weight: 500; }
+  .medal-count ul {
+    width: 23em;
+    padding: 0;
+    list-style-type: none; }
+    .medal-count ul span {
+      display: inline-block; }
+      .medal-count ul span.spacer {
+        width: 10em; }
+      .medal-count ul span.idx {
+        width: 2em;
+        text-align: right;
+        padding-right: 1em; }
+      .medal-count ul span.flag {
+        width: 3em; }
+      .medal-count ul span.code {
+        width: 4em;
+        font-weight: 600;
+        text-align: left; }
+      .medal-count ul span.gold {
+        width: 3em;
+        text-align: center; }
+        .medal-count ul span.gold .circle {
+          background-color: #ffd700; }
+      .medal-count ul span.silver {
+        width: 3em;
+        text-align: center; }
+        .medal-count ul span.silver .circle {
+          background-color: #c4cace; }
+      .medal-count ul span.bronze {
+        width: 3em;
+        text-align: center; }
+        .medal-count ul span.bronze .circle {
+          background-color: #b1560f; }
+      .medal-count ul span.total {
+        width: 4em;
+        text-align: center;
+        color: #555;
+        font-weight: 600; }
+      .medal-count ul span.circle {
+        height: 1.2em;
+        width: 1.2em;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: -.2em; }
+      .medal-count ul span.active {
+        border-top: 2px solid #888; }
+    .medal-count ul li {
+      vertical-align: middle;
+      line-height: 2em;
+      border-bottom: 1px solid #888; }
+      .medal-count ul li.hdr {
+        border-bottom: 2px solid #888; }
+        .medal-count ul li.hdr .total {
+          cursor: pointer;
+          color: #555;
+          font-weight: 400; }
+  .medal-count .flag {
+    background-image: url("https://s3-us-west-2.amazonaws.com/reuters.medals-widget/flags.png");
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 17px; }
+    .medal-count .flag.AUT {
+      background-position: 0 0px; }
+    .medal-count .flag.BLR {
+      background-position: 0 -17px; }
+    .medal-count .flag.CAN {
+      background-position: 0 -34px; }
+    .medal-count .flag.CHN {
+      background-position: 0 -51px; }
+    .medal-count .flag.FRA {
+      background-position: 0 -68px; }
+    .medal-count .flag.GER {
+      background-position: 0 -85px; }
+    .medal-count .flag.ITA {
+      background-position: 0 -102px; }
+    .medal-count .flag.NED {
+      background-position: 0 -119px; }
+    .medal-count .flag.NOR {
+      background-position: 0 -136px; }
+    .medal-count .flag.RUS {
+      background-position: 0 -153px; }
+    .medal-count .flag.SUI {
+      background-position: 0 -170px; }
+    .medal-count .flag.SWE {
+      background-position: 0 -187px; }
+    .medal-count .flag.USA {
+      background-position: 0 -204px; }

@@ -1,0 +1,8 @@
+.*
+!/.gitignore
+/target
+/resources/public/js
+*.jar
+*.class
+*.iml
+!/release/*.jar

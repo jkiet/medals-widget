@@ -1,0 +1,867 @@
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:16  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m12[0m  [36m  [:div "Hi"])[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn init![0m
+  [36m15[0m  [36m  [][0m
+  [33m16[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m17[0m  [36m  #_(ajax/GET[0m
+  [36m18[0m  [36m      "/plans"[0m
+  [36m19[0m  [36m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.662 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:16  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m12[0m  [36m  [:div "Hi"])[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(defn init![0m
+  [36m15[0m  [36m  [][0m
+  [33m16[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m17[0m  [36m  #_(ajax/GET[0m
+  [36m18[0m  [36m      "/plans"[0m
+  [36m19[0m  [36m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.521 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:18  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m14[0m  [36m  [:div "Hi"])[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn init![0m
+  [36m17[0m  [36m  [][0m
+  [33m18[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m19[0m  [36m  (ajax/GET[0m
+  [36m20[0m  [36m      "/plans"[0m
+  [36m21[0m  [36m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:21  column:32  ----[0m
+
+  [1mUse of undeclared Var clj-podium.browser.widget/local-state[0m
+
+  [36m17[0m  [36m  [][0m
+  [36m18[0m  [36m  (r/render [view] (dom/getElement "foo"))[0m
+  [36m19[0m  [36m  (ajax/GET[0m
+  [36m20[0m  [36m      "/plans"[0m
+  [33m21[0m  [1m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var clj-podium.browser.widget/local-state[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(enable-console-print!)[0m
+  [36m24[0m  [36m(init!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 1.492 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:18  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m14[0m  [36m  [:div "Hi"])[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn init![0m
+  [36m17[0m  [36m  [][0m
+  [33m18[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m19[0m  [36m  (ajax/GET[0m
+  [36m20[0m  [36m      "/plans"[0m
+  [36m21[0m  [36m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:21  column:32  ----[0m
+
+  [1mUse of undeclared Var clj-podium.browser.widget/local-state[0m
+
+  [36m17[0m  [36m  [][0m
+  [36m18[0m  [36m  (r/render [view] (dom/getElement "foo"))[0m
+  [36m19[0m  [36m  (ajax/GET[0m
+  [36m20[0m  [36m      "/plans"[0m
+  [33m21[0m  [1m      {:handler (fn [r] (swap! local-state assoc :devices r))}))[0m
+  [0m  [0m  [33m                               ^--- Use of undeclared Var clj-podium.browser.widget/local-state[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(enable-console-print!)[0m
+  [36m24[0m  [36m(init!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.729 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:20  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m16[0m  [36m  [:div "Hi"])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(defn init![0m
+  [36m19[0m  [36m  [][0m
+  [33m20[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m21[0m  [36m  (ajax/GET[0m
+  [36m22[0m  [36m      "/plans"[0m
+  [36m23[0m  [36m      {:handler (fn [r] (swap! state assoc :data r))}))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 1.122 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:20  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m16[0m  [36m  [:div "Hi"])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(defn init![0m
+  [36m19[0m  [36m  [][0m
+  [33m20[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m21[0m  [36m  (ajax/GET[0m
+  [36m22[0m  [36m      "/plans"[0m
+  [36m23[0m  [36m      {:handler (fn [r] (swap! state assoc :data r))}))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.541 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:20  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m16[0m  [36m  [:div "Hi"])[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m(defn init![0m
+  [36m19[0m  [36m  [][0m
+  [33m20[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m21[0m  [36m  (ajax/GET[0m
+  [36m22[0m  [36m      data-url[0m
+  [36m23[0m  [36m      {:handler (fn [r] (swap! state assoc :data r))}))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(enable-console-print!)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.52 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:22  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m18[0m  [36m   ])[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m(defn init![0m
+  [36m21[0m  [36m  [][0m
+  [33m22[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m23[0m  [36m  (ajax/GET[0m
+  [36m24[0m  [36m      data-url[0m
+  [36m25[0m  [36m      {:handler (fn [r] (swap! state assoc :data r))}))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.533 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Figwheel: Can't open  ("src/cljs/reuters.medals_widget/widget.cljs" 22 3) No :open-file-command supplied in the config.
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:23  column:3  ----[0m
+
+  [1mreagent.core/render is deprecated[0m
+
+  [36m19[0m  [36m   ])[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(defn init![0m
+  [36m22[0m  [36m  [][0m
+  [33m23[0m  [1m  (r/render [view] (dom/getElement "foo"))[0m
+  [0m  [0m  [33m  ^--- reagent.core/render is deprecated[0m
+  [36m24[0m  [36m  (ajax/GET[0m
+  [36m25[0m  [36m      data-url[0m
+  [36m26[0m  [36m      {:handler (fn [r] (swap! state assoc :data r))}))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.445 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.415 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.638 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[31mFailed to compile build :app-target from ["src/cljs"] in 0.354 seconds.[0m
+[36m----  Could not Analyze  src/cljs/reuters.medals_widget/widget.cljs   line:20  column:5  ----[0m
+
+  [1mWrong number of args (0) passed to: clojure.core/->>[0m
+
+  [36m18[0m  [36m   [:span "MEDAL COUNT"][0m
+  [36m19[0m  [36m   [:ul[0m
+  [33m20[0m  [1m    (->> )][0m
+  [0m  [0m  [33m    ^--- Wrong number of args (0) passed to: clojure.core/->>[0m
+  [36m21[0m  [36m   ])[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(defn init![0m
+
+[36m----  Analysis Error : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.468 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:21  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to cljs.core/sort-by[0m
+
+  [36m17[0m  [36m  [:div.medal-count[0m
+  [36m18[0m  [36m   [:span "MEDAL COUNT"][0m
+  [36m19[0m  [36m   [:ul[0m
+  [36m20[0m  [36m    (->> (:data @state)[0m
+  [33m21[0m  [1m         (sort-by ))][0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to cljs.core/sort-by[0m
+  [36m22[0m  [36m   ])[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defn init![0m
+  [36m25[0m  [36m  [][0m
+  [36m26[0m  [36m  (rd/render [view] (dom/getElement "foo"))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.749 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.375 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.562 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.799 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters.medals_widget/widget.cljs   line:27  column:27  ----[0m
+
+  [1mWrong number of args (0) passed to cljs.core/with-meta[0m
+
+  [36m23[0m  [36m           (fn [coll {:strs [code[0m
+  [36m24[0m  [36m                             gold[0m
+  [36m25[0m  [36m                             silver[0m
+  [36m26[0m  [36m                             bronze]}][0m
+  [33m27[0m  [1m               (conj coll (with-meta) [:li ]))[0m
+  [0m  [0m  [33m                          ^--- Wrong number of args (0) passed to cljs.core/with-meta[0m
+  [36m28[0m  [36m           []))][0m
+  [36m29[0m  [36m   ])[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(defn init![0m
+  [36m32[0m  [36m  [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters.medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.775 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.368 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.486 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.38 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.396 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.387 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters.medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.502 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 2.193 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.967 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.389 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.421 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.397 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.385 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.344 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.377 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.379 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.803 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.765 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.698 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.68 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.747 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.608 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.367 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.441 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.361 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.566 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.753 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:42  column:56  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/k[0m
+
+  [36m38[0m  [36m                            {:key code})))[0m
+  [36m39[0m  [36m  [])[0m
+  [36m40[0m  [36m(into [:ul[0m
+  [36m41[0m  [36m       (with-meta [:li[0m
+  [33m42[0m  [1m                             [:span.idx (inc k)][0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var reuters.medals-widget.browser.widget/k[0m
+  [36m43[0m  [36m                             [:span.flag {:class code}][0m
+  [36m44[0m  [36m                             [:span.code code][0m
+  [36m45[0m  [36m                             [:span.gold gold][0m
+  [36m46[0m  [36m                             [:span.silver silver][0m
+  [36m47[0m  [36m                             [:span.bronze bronze][0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:43  column:60  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/code[0m
+
+  [36m39[0m  [36m  [])[0m
+  [36m40[0m  [36m(into [:ul[0m
+  [36m41[0m  [36m       (with-meta [:li[0m
+  [36m42[0m  [36m                             [:span.idx (inc k)][0m
+  [33m43[0m  [1m                             [:span.flag {:class code}][0m
+  [0m  [0m  [33m                                                 ^--- Use of undeclared Var reuters.medals-widget.browser.widget/code[0m
+  [36m44[0m  [36m                             [:span.code code][0m
+  [36m45[0m  [36m                             [:span.gold gold][0m
+  [36m46[0m  [36m                             [:span.silver silver][0m
+  [36m47[0m  [36m                             [:span.bronze bronze][0m
+  [36m48[0m  [36m                             [:span.total (+ gold silver bronze)]][0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:44  column:52  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/code[0m
+
+  [36m40[0m  [36m(into [:ul[0m
+  [36m41[0m  [36m       (with-meta [:li[0m
+  [36m42[0m  [36m                             [:span.idx (inc k)][0m
+  [36m43[0m  [36m                             [:span.flag {:class code}][0m
+  [33m44[0m  [1m                             [:span.code code][0m
+  [0m  [0m  [33m                                         ^--- Use of undeclared Var reuters.medals-widget.browser.widget/code[0m
+  [36m45[0m  [36m                             [:span.gold gold][0m
+  [36m46[0m  [36m                             [:span.silver silver][0m
+  [36m47[0m  [36m                             [:span.bronze bronze][0m
+  [36m48[0m  [36m                             [:span.total (+ gold silver bronze)]][0m
+  [36m49[0m  [36m                            {:key code})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:45  column:52  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/gold[0m
+
+  [36m41[0m  [36m(with-meta [:li[0m
+  [36m42[0m  [36m                      [:span.idx (inc k)][0m
+  [36m43[0m  [36m                      [:span.flag {:class code}][0m
+  [36m44[0m  [36m                      [:span.code code][0m
+  [33m45[0m  [1m                      [:span.gold gold][0m
+  [0m  [0m  [33m                                  ^--- Use of undeclared Var reuters.medals-widget.browser.widget/gold[0m
+  [36m46[0m  [36m                      [:span.silver silver][0m
+  [36m47[0m  [36m                      [:span.bronze bronze][0m
+  [36m48[0m  [36m                      [:span.total (+ gold silver bronze)]][0m
+  [36m49[0m  [36m                     {:key code})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:46  column:54  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/silver[0m
+
+  [36m42[0m  [36m                                       [:span.idx (inc k)][0m
+  [36m43[0m  [36m                                       [:span.flag {:class code}][0m
+  [36m44[0m  [36m                                       [:span.code code][0m
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [33m46[0m  [1m                                       [:span.silver silver][0m
+  [0m  [0m  [33m                                                     ^--- Use of undeclared Var reuters.medals-widget.browser.widget/silver[0m
+  [36m47[0m  [36m                                       [:span.bronze bronze][0m
+  [36m48[0m  [36m                                       [:span.total (+ gold silver bronze)]][0m
+  [36m49[0m  [36m                                      {:key code})[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:47  column:54  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/bronze[0m
+
+  [36m43[0m  [36m                                       [:span.flag {:class code}][0m
+  [36m44[0m  [36m                                       [:span.code code][0m
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [36m46[0m  [36m                                       [:span.silver silver][0m
+  [33m47[0m  [1m                                       [:span.bronze bronze][0m
+  [0m  [0m  [33m                                                     ^--- Use of undeclared Var reuters.medals-widget.browser.widget/bronze[0m
+  [36m48[0m  [36m                                       [:span.total (+ gold silver bronze)]][0m
+  [36m49[0m  [36m                                      {:key code})[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:48  column:56  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/gold[0m
+
+  [36m44[0m  [36m                                       [:span.code code][0m
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [36m46[0m  [36m                                       [:span.silver silver][0m
+  [36m47[0m  [36m                                       [:span.bronze bronze][0m
+  [33m48[0m  [1m                                       [:span.total (+ gold silver bronze)]][0m
+  [0m  [0m  [33m                                                       ^--- Use of undeclared Var reuters.medals-widget.browser.widget/gold[0m
+  [36m49[0m  [36m                                      {:key code})[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m(defn init![0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:48  column:61  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/silver[0m
+
+  [36m44[0m  [36m                                       [:span.code code][0m
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [36m46[0m  [36m                                       [:span.silver silver][0m
+  [36m47[0m  [36m                                       [:span.bronze bronze][0m
+  [33m48[0m  [1m                                       [:span.total (+ gold silver bronze)]][0m
+  [0m  [0m  [33m                                                            ^--- Use of undeclared Var reuters.medals-widget.browser.widget/silver[0m
+  [36m49[0m  [36m                                      {:key code})[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m(defn init![0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:48  column:68  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/bronze[0m
+
+  [36m44[0m  [36m                                       [:span.code code][0m
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [36m46[0m  [36m                                       [:span.silver silver][0m
+  [36m47[0m  [36m                                       [:span.bronze bronze][0m
+  [33m48[0m  [1m                                       [:span.total (+ gold silver bronze)]][0m
+  [0m  [0m  [33m                                                                   ^--- Use of undeclared Var reuters.medals-widget.browser.widget/bronze[0m
+  [36m49[0m  [36m                                      {:key code})[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m(defn init![0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:49  column:45  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/code[0m
+
+  [36m45[0m  [36m                                       [:span.gold gold][0m
+  [36m46[0m  [36m                                       [:span.silver silver][0m
+  [36m47[0m  [36m                                       [:span.bronze bronze][0m
+  [36m48[0m  [36m                                       [:span.total (+ gold silver bronze)]][0m
+  [33m49[0m  [1m                                      {:key code})[0m
+  [0m  [0m  [33m                                            ^--- Use of undeclared Var reuters.medals-widget.browser.widget/code[0m
+  [36m50[0m  [36m[0m
+  [36m51[0m  [36m                 ])))])[0m
+  [36m52[0m  [36m[0m
+  [36m53[0m  [36m(defn init![0m
+  [36m54[0m  [36m  [][0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.835 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.531 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.502 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.734 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.507 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.737 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.481 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.522 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 1.443 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.416 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.566 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[31mFailed to compile build :app-target from ["src/cljs"] in 0.682 seconds.[0m
+[36m----  Could not Read  src/cljs/reuters/medals_widget/widget.cljs   line:68 ----[0m
+
+  [1m/home/jkiet/assignment/medals-widget/src/cljs/reuters/medals_widget/widget.cljs [line 68, col 67] Unmatched delimiter ).[0m
+
+  [36m67[0m  [36m(enable-console-print!)[0m
+  [33m68[0m  [1m(cljs.pprint/pprint (str/split (-> js/window .-location .-href) #))[0m
+  [0m  [0m  [33m/home/jkiet/assignment/medals-widget/src/cljs/reuters/medals_widget/widget.cljs [line 68, col 67] Unmatched delimiter ).[0m
+  [36m69[0m  [36m(init!)[0m
+
+[36m----  Reader Error : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:61  column:22  ----[0m
+
+  [1mWrong number of args (2) passed to cljs.core/assoc[0m
+
+  [36m57[0m  [36m(defn init![0m
+  [36m58[0m  [36m  [][0m
+  [36m59[0m  [36m  (let [params (reduce[0m
+  [36m60[0m  [36m                 (fn [m p][0m
+  [33m61[0m  [1m                     (assoc m (juxt ))[0m
+  [0m  [0m  [33m                     ^--- Wrong number of args (2) passed to cljs.core/assoc[0m
+  [36m62[0m  [36m                     )[0m
+  [36m63[0m  [36m                 (-> js/window[0m
+  [36m64[0m  [36m                           .-location[0m
+  [36m65[0m  [36m                           .-href[0m
+  [36m66[0m  [36m                           (str/split #"\?")[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:61  column:31  ----[0m
+
+  [1mWrong number of args (0) passed to cljs.core/juxt[0m
+
+  [36m57[0m  [36m(defn init![0m
+  [36m58[0m  [36m  [][0m
+  [36m59[0m  [36m  (let [params (reduce[0m
+  [36m60[0m  [36m                 (fn [m p][0m
+  [33m61[0m  [1m                     (assoc m (juxt ))[0m
+  [0m  [0m  [33m                              ^--- Wrong number of args (0) passed to cljs.core/juxt[0m
+  [36m62[0m  [36m                     )[0m
+  [36m63[0m  [36m                 (-> js/window[0m
+  [36m64[0m  [36m                           .-location[0m
+  [36m65[0m  [36m                           .-href[0m
+  [36m66[0m  [36m                           (str/split #"\?")[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.857 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:61  column:34  ----[0m
+
+  [1mWrong number of args (0) passed to clojure.string/split[0m
+
+  [36m57[0m  [36m(defn init![0m
+  [36m58[0m  [36m  [][0m
+  [36m59[0m  [36m  (let [params (reduce[0m
+  [36m60[0m  [36m                 (fn [m p][0m
+  [33m61[0m  [1m                     (let [[k v] (str/split )])[0m
+  [0m  [0m  [33m                                 ^--- Wrong number of args (0) passed to clojure.string/split[0m
+  [36m62[0m  [36m                     (assoc m k v))[0m
+  [36m63[0m  [36m                 (-> js/window[0m
+  [36m64[0m  [36m                           .-location[0m
+  [36m65[0m  [36m                           .-href[0m
+  [36m66[0m  [36m                           (str/split #"\?")[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:62  column:31  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/k[0m
+
+  [36m58[0m  [36m[][0m
+  [36m59[0m  [36m(let [params (reduce[0m
+  [36m60[0m  [36m               (fn [m p][0m
+  [36m61[0m  [36m                   (let [[k v] (str/split )])[0m
+  [33m62[0m  [1m                   (assoc m k v))[0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var reuters.medals-widget.browser.widget/k[0m
+  [36m63[0m  [36m               (-> js/window[0m
+  [36m64[0m  [36m                         .-location[0m
+  [36m65[0m  [36m                         .-href[0m
+  [36m66[0m  [36m                         (str/split #"\?")[0m
+  [36m67[0m  [36m                         last[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:62  column:33  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.browser.widget/v[0m
+
+  [36m58[0m  [36m[][0m
+  [36m59[0m  [36m(let [params (reduce[0m
+  [36m60[0m  [36m               (fn [m p][0m
+  [36m61[0m  [36m                   (let [[k v] (str/split )])[0m
+  [33m62[0m  [1m                   (assoc m k v))[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var reuters.medals-widget.browser.widget/v[0m
+  [36m63[0m  [36m               (-> js/window[0m
+  [36m64[0m  [36m                         .-location[0m
+  [36m65[0m  [36m                         .-href[0m
+  [36m66[0m  [36m                         (str/split #"\?")[0m
+  [36m67[0m  [36m                         last[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.969 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:61  column:34  ----[0m
+
+  [1mWrong number of args (1) passed to clojure.string/split[0m
+
+  [36m57[0m  [36m(defn init![0m
+  [36m58[0m  [36m  [][0m
+  [36m59[0m  [36m  (let [params (reduce[0m
+  [36m60[0m  [36m                 (fn [m p][0m
+  [33m61[0m  [1m                     (let [[k v] (str/split #"=")][0m
+  [0m  [0m  [33m                                 ^--- Wrong number of args (1) passed to clojure.string/split[0m
+  [36m62[0m  [36m                       (if (#{"element"})[0m
+  [36m63[0m  [36m                         (assoc m (keyword k) v))))[0m
+  [36m64[0m  [36m                 {}[0m
+  [36m65[0m  [36m                 (-> js/window[0m
+  [36m66[0m  [36m                           .-location[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.537 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.549 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.529 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.468 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.503 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.671 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.537 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.517 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:20  column:16  ----[0m
+
+  [1mWrong number of args (0) passed to cljs.core/assoc[0m
+
+  [36m16[0m  [36m[][0m
+  [36m17[0m  [36m[:div.medal-count[0m
+  [36m18[0m  [36m [:h1 "MEDAL COUNT"][0m
+  [36m19[0m  [36m (when-some [data (:data @state)][0m
+  [33m20[0m  [1m   (->> (map (assoc ) data)[0m
+  [0m  [0m  [33m             ^--- Wrong number of args (0) passed to cljs.core/assoc[0m
+  [36m21[0m  [36m        (sort-by[0m
+  [36m22[0m  [36m          (case (:sort @state)[0m
+  [36m23[0m  [36m            :gold (juxt :gold :silver)[0m
+  [36m24[0m  [36m            :silver (juxt :silver :gold)[0m
+  [36m25[0m  [36m            :bronze (juxt :bronze :gold))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.52 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.53 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.375 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.564 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/browser/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[31mFailed to compile build :app-target from ["src/cljs"] in 0.387 seconds.[0m
+[36m----  Exception    ----[0m
+
+  clojure.lang.ExceptionInfo : [1m[0m
+         java.lang.Exception : [1mNo input matching "reuters.medals_widget.browser.widget"[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.Exception: No input matching "reuters.medals_widget.browser.widget"
+ at cljs.module_graph$canonical_name.invokeStatic (module_graph.cljc:181)
+    cljs.module_graph$canonical_name.invoke (module_graph.cljc:175)
+    cljs.module_graph$validate_modules$fn__4948.invoke (module_graph.cljc:189)
+    clojure.core$map$fn__5862$fn__5863.invoke (core.clj:2742)
+    clojure.core.protocols$iter_reduce.invokeStatic (protocols.clj:49)
+    clojure.core.protocols$fn__8140.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+    clojure.core.protocols$fn__8088$G__8083__8101.invoke (protocols.clj:13)
+    clojure.core$transduce.invokeStatic (core.clj:6884)
+    clojure.core$into.invokeStatic (core.clj:6899)
+    clojure.core$into.invoke (core.clj:6887)
+    cljs.module_graph$validate_modules.invokeStatic (module_graph.cljc:189)
+    cljs.module_graph$validate_modules.invoke (module_graph.cljc:183)
+    cljs.module_graph$inputs__GT_assigned_modules.invokeStatic (module_graph.cljc:212)
+    cljs.module_graph$inputs__GT_assigned_modules.invoke (module_graph.cljc:201)
+    cljs.module_graph$expand_modules.invokeStatic (module_graph.cljc:257)
+    cljs.module_graph$expand_modules.invoke (module_graph.cljc:245)
+    cljs.closure$output_unoptimized.invokeStatic (closure.clj:2123)
+    cljs.closure$output_unoptimized.doInvoke (closure.clj:2097)
+    clojure.lang.RestFn.applyTo (RestFn.java:139)
+    clojure.core$apply.invokeStatic (core.clj:667)
+    clojure.core$apply.invoke (core.clj:660)
+    cljs.closure$build.invokeStatic (closure.clj:3068)
+    cljs.closure$build.invoke (closure.clj:2920)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__19770.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__20092.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__20082.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__19951.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20008.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20041.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__20096.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20138.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__377$fn__378.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__377.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__5754.invoke (core.clj:2033)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[31mFailed to compile build :app-target from ["src/cljs"] in 0.114 seconds.[0m
+[36m----  Could not Analyze  src/cljs/reuters/medals_widget/widget.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported. Got (def data-url "/gen/medals.json") instead. at line 1 src/cljs/reuters/medals_widget/widget.cljs[0m
+
+  [33m1[0m  [1m(ns reuters.medals-widget.widget[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported. Got (def data-url "/gen/medals.json") instead. at line 1 src/cljs/reuters/medals_widget/widget.cljs[0m
+  [36m2[0m  [36m  (:require [goog.dom :as dom][0m
+  [36m3[0m  [36m            [reagent.core :as r][0m
+  [36m4[0m  [36m            [reagent.dom :as rd][0m
+
+[36m----  Analysis Error : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.588 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[31mFailed to compile build :app-target from ["src/cljs"] in 0.422 seconds.[0m
+[36m----  Could not Read  src/cljs/reuters/medals_widget/widget.cljs   line:93 ----[0m
+
+  [1m/home/jkiet/assignment/medals-widget/src/cljs/reuters/medals_widget/widget.cljs [line 93, col 30] The map literal starting with :handler on line 90 column 7 contains 7 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m91[0m  [36m       :error-handler[0m
+  [36m92[0m  [36m       :response-format :json[0m
+  [33m93[0m  [1m       :keywords?       true})))[0m
+  [0m  [0m  [33m       /home/jkiet/assignment/medals-widget/src/cljs/reuters/medals_widget/widget.cljs [line 93, col 30] The map literal starting with :handler on line 90 column 7 contains 7 form(s). Map literals must contain an even number of forms.[0m
+  [36m94[0m  [36m[0m
+  [36m95[0m  [36m[0m
+  [36m96[0m  [36m(enable-console-print!)[0m
+
+[36m----  Reader Error : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.574 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.462 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.493 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.481 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/reuters/medals_widget/widget.cljs   line:23  column:23  ----[0m
+
+  [1mUse of undeclared Var reuters.medals-widget.widget/statu[0m
+
+  [36m19[0m  [36m[:h1 "MEDAL COUNT"][0m
+  [36m20[0m  [36m(when-some [{:keys [status[0m
+  [36m21[0m  [36m                    status-text]} (:error @state)][0m
+  [36m22[0m  [36m  [:div.error (str "Unable to retrieve data ("[0m
+  [33m23[0m  [1m                   statu[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var reuters.medals-widget.widget/statu[0m
+  [36m24[0m  [36m                   ","[0m
+  [36m25[0m  [36m                   status-text[0m
+  [36m26[0m  [36m                   ")") ])[0m
+  [36m27[0m  [36m(when-some [data (:data @state)][0m
+  [36m28[0m  [36m  (->> (map (fn [{:keys [gold[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reuters/medals_widget/widget.cljs  ----[0m
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.8 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
+Compiling build :app-target to "resources/public/js/out" from ["src/cljs"]...
+[32mSuccessfully compiled build :app-target to "resources/public/js/out" in 0.525 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/reuters/medals_widget/widget.js
