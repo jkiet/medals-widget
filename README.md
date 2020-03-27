@@ -25,6 +25,9 @@
     $ http://localhost:8080/?element_id=<foo|bar|baz>&sort=<whatever>
 
 
+    $ http://localhost:8080/?element_id=baz&sort=bronze
+
+
 ### Bugs
 
 ... undisclosed yet
