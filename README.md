@@ -1,42 +1,16 @@
-# medals-widget
+### medals-widget
 
-## Dependencies
+#### Usage
 
-- `java 8 JDK` either oracle or openjdk
+```
+    yarn && yarn clean && yarn dev-sass && yarn watch
+```
 
-## Building
+http://localhost:8700/?element_id=<foo|bar|baz>&sort=<whatever>
 
-    $ lein uberjar
+http://localhost:8700/?element_id=baz&sort=bronze
 
-## Packaging
-
-    $ cp target/uberjar/medals-widget-0.1.0-SNAPSHOT-standalone.jar release/
-
-## Running standalone app
-
-    $ java -jar release/medals-widget-0.1.0-SNAPSHOT-standalone.jar
-
-
-- standalone dev server should start listening on port 8080;
-- the server sometimes intentionally returns 404,500,503 on data route.
-
-## Usage
-
-    $ http://localhost:8080/?element_id=<foo|bar|baz>&sort=<whatever>
-
-
-    $ http://localhost:8080/?element_id=baz&sort=bronze
-
-
-### Bugs
-
-... undisclosed yet
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
+#### License
 
 Copyright © 2020 FIXME
 

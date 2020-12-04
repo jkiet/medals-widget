@@ -1,0 +1,45 @@
+{
+  "name": "medals-widget",
+  "description": "The widget ClojureScript + shadow-cljs + Reagent",
+  "version": "0.1.0",
+  "repository": "git@github.com:jkiet/medals-widget.git",
+  "author": "jkiet",
+  "scripts": {
+    "build": "yarn release",
+    "release": "shadow-cljs release app",
+    "server": "shadow-cljs server",
+    "watch": "shadow-cljs watch app",
+    "clean": "rimraf target public/js/compiled",
+    "dev-sass": "node -r esm scripts/sass.js --sourceMap && yarn autoprefixer",
+    "format": "yarn format:index && yarn format:public && yarn format:src",
+    "format:index": "prettier --write \"*.{json,md}\"",
+    "format:public": "prettier --write \"resources/public/**/*.{css,html,js}\"",
+    "format:src": "echo \"no formatter for src files\""
+  },
+  "dependencies": {
+    "create-react-class": "^15.7.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "shadow-cljs": "2.11.8"
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "ramda": "^0.27.1",
+    "node-sass": "^5.0.0",
+    "esm": "^3.2.25",
+    "autoprefixer": "^10.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "license": "EPL"
+}

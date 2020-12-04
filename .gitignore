@@ -2,8 +2,9 @@
 !/.gitignore
 /target
 /resources/public/js
+/node_modules
 *.jar
 *.class
 *.iml
 *.log
-!/release/*.jar
+
